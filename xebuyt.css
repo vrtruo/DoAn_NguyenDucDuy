@@ -1,0 +1,196 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #004a7c; 
+    padding: 15px 30px;
+    color: white;
+    margin: auto;
+}
+
+.logo {
+    height: 35px;
+}
+
+.danhmuc {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    
+}
+
+.danhmuc li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+.datve {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+}
+
+.datve h2 {
+    font-size: 30px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.quytrinh {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.quytrinh img {
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.quytrinh h3 {
+    font-size: 18px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.quytrinh p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.muiten {
+    font-size: 24px;
+    color: #007bff;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+.footer {
+    background: #2527c0;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-logo img {
+    height: 40px;
+    text-align: center;
+}
+
+.footer-logo h3 {
+    margin: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    
+}
+
+.footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+    
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+
+.footer-right {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.chungnhan img {
+    display: block;
+    margin-bottom: 10px;
+    max-width: 150px;
+    
+}
+
+.icon {
+    display: flex;
+    gap: 10px;
+    
+    
+}
+
+.icon img {
+    height: 30px;
+    
+}
+
+.Copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff1f1;
+}
